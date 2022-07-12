@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev-bak": "next dev",
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start-bak": "next start",
-    "start": "NODE_ENV=production node server.js",
-    "buildstatic": "next build && next export"
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
