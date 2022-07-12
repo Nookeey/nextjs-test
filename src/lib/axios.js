@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const axios = Axios.create({
-    baseURL: process.env.NEXT_PUBLIC_BACKEND_URL,
+    baseURL: 'http://51.83.130.70:3000',
     headers: {
         'X-Requested-With': 'XMLHttpRequest',
     },
