@@ -12,7 +12,7 @@ export async function getServerSideProps() {
 }
 
 const Post = ( { posts } ) => {
-    const { logout, user } = useAuth({ middleware: 'auth' })
+    const { logout, user } = useAuth({ middleware: 'guest' })
     
     return (
         <AppLayout
