@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export async function getServerSideProps() {
     // Fetch data from external API
-    const res = await fetch(`http://51.83.130.70:3000/api/posts`)
+    const res = await fetch(`https://nextjs.pltgroup3.civ.pl/api/posts`)
     const posts = await res.json()
   
     // Pass data to the page via props

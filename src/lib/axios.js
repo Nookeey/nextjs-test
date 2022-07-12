@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const axios = Axios.create({
-    baseURL: 'http://51.83.130.70:3000',
+    baseURL: 'https://nextjs.pltgroup3.civ.pl',
     headers: {
         'X-Requested-With': 'XMLHttpRequest',
     },
