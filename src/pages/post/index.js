@@ -1,5 +1,4 @@
 import AppLayout from '@/components/Layouts/AppLayout'
-import { useAuth } from '@/hooks/auth'
 import Head from 'next/head'
 
 export async function getServerSideProps() {
@@ -12,7 +11,6 @@ export async function getServerSideProps() {
 }
 
 const Post = ( { posts } ) => {
-    const { logout, user } = useAuth({ middleware: 'guest' })
     
     return (
         <AppLayout
