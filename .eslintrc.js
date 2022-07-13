@@ -19,12 +19,6 @@ module.exports = {
         ecmaVersion: 2020,
     },
     plugins: ['react', '@next/eslint-plugin-next', 'prettier', 'lodash-template'],
-    overrides: [
-        {
-            'files': ['*.html'],
-            'processor': 'lodash-template/html',
-        }
-    ],
     rules: {
         'import/prefer-default-export': 0,
         'no-console': 'warn',

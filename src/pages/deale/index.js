@@ -3,7 +3,7 @@ import { useAuth } from '@/hooks/auth'
 import Head from 'next/head'
 
 const Deale = () => {
-    const { logout, user } = useAuth({ middleware: 'auth' })
+    useAuth({ middleware: 'guest' })
 
     return (
         <AppLayout
